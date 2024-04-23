@@ -359,17 +359,25 @@ span {
 /* ---------------------------------- */
 
 .copyright {
-
+padding: 2rem;
+font-size: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .left {
-
+/* background-color: blue; */
 }
 
 .policy {
-
+/* background-color: yellow; */
+display: flex;
+gap: 1rem;
 }
 
 .policy a {
-    
+text-decoration: none;
+color: inherit;
+border-bottom:1px solid black;
 }
